@@ -1,0 +1,266 @@
+/*
+                                                        
+_____ _______  ____   _______  __   ____   ______ ______
+\__  \\_  __ \/    \_/ __ \  \/ / _/ ___\ /  ___//  ___/
+ / __ \|  | \/   |  \  ___/\   /  \  \___ \___ \ \___ \ 
+(____  /__|  |___|  /\___  >\_/ /\ \___  >____  >____  >
+     \/           \/     \/     \/     \/     \/     \/ 
+
+arnev.css - a lightweight web framework.
+     
+(C) ASDT 2018.
+*/
+
+.arnevbutton {
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.arnevbutton-dark {
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+.arnevbutton-dark:focus {
+    outline: 0;
+}
+
+.arnevbutton-dark:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.arnevbutton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.light {
+    border-color: white;
+    color: white;
+}
+
+.arnevbutton:focus {
+    outline: 0;
+}
+
+.rounded {
+    border-radius: 100%;
+}
+
+.rounded-styled {
+    border-radius: 100%;
+    border-color: white;
+    border-width: 2px;
+}
+
+.arnev-textbox {
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 1px;
+    border-color: white;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+.arnev-textbox:focus {
+    transition-delay: 0.1s;
+    outline: 0;
+    border-width: 1.5px;
+    transition-delay: 0.1s;
+    border-width: 2px;
+    
+}
+
+.switch {
+    border-right: 2px;
+    height: 20px;
+    border-radius: 2px;
+    width: 35px;
+    background-color: white;
+    padding: 2px;
+}
+
+.switch-handle-on {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #00c3ff;
+    width: 16px;
+    height: 20px;
+    float: right;
+    border-radius: 2px;
+}
+
+.switch-handle-off {
+    
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #919191;
+    width: 16px;
+    height: 20px;
+    float: left;
+    border-radius: 2px;
+}
+
+.radiobutton {
+    border-radius: 100%;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+}
+
+.radiocheck-off {
+    border-radius: 100%;
+    background-color: #efefef;
+    height: 20px;
+    width: 20px;
+}
+
+.radiocheck-on {
+    border-radius: 100%;
+    background-color: #008cff;
+    height: 20px;
+    width: 20px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 2px;
+    font-weight: 1em;
+}
+
+.subtitle {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.arnev-label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arnev-half {
+    width: 50%;
+}
+
+.arnev-third {
+    width: 33.3%;
+}
+
+.arnev-spacer {
+    height: 10px;
+}
+
+.arnev-textbox::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.arnev-textbox:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.arnev-textbox::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.arnev-footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.arnev-nomargin {
+    margin: 0px;
+}
+
+.arnev-link {
+    text-decoration: none;
+}
+
+.arnev-link:hover {
+    color: lime;
+}
+
+.arnev-link:focus {
+    color: yellow;
+}
+
+.arnev-left {
+    text-align: left;
+}
+
+.codebox {
+    background-color: #474747;
+    border-color: #2c2c2c;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+    font-family: monospace;
+}
+
+.arnev-bg {
+    background-color: #0e8bdf;
+}
+
+.arnev-hr {
+    border: none;
+    background-color: white;
+    height: 1px;
+}
+
+.arnev-nav-blue {
+    background-color: #0e78be;
+    color: white;
+}
+
+.arnev-navbar {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.arnev-right {
+    float: right;
+}
+
+.arnev-nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.arnev-nav-link:hover {
+    background-color: #0e6ba8;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arnev.css</title>
+        <link rel="stylesheet" href="arnev.css">
+        <script src="arnev.js"></script>
+    </head>
+    <body style="background-color: #0e8bdf; margin: 0px;">
+        <nav class="arnev-navbar arnev-nav-blue">
+            My Logo
+            <div class="arnev-right">
+                <a href="#" class="arnev-nav-link">Dashboard</a>
+            </div>
+        </nav>
+        <div style="margin:6px;">
+        
+        <button type="button" class="arnevbutton-dark">test button</button>
+        <img class="rounded" height="128" width="128" src="arnev.png">
+        <input class="arnev-textbox"><br>
+        <script>
+        function off()
+        {
+            var e = document.getElementById("handle");
+            e.setAttribute("class", "switch-handle-off");
+            e.onclick = on;
+        }
+        function on()
+        {
+            var e = document.getElementById("handle");
+            e.setAttribute("class", "switch-handle-on");
+            e.onclick = off;
+        }
+
+        function off1()
+        {
+            var e = document.getElementById("rstate");
+            e.setAttribute("class", "radiocheck-off");
+            e.onclick = on1;
+        }
+        function on1()
+        {
+            var e = document.getElementById("rstate");
+            e.setAttribute("class", "radiocheck-on");
+            e.onclick = off1;
+        }
+        
+        </script>
+        <div class="arnev-label light">dank?</div> <div class="switch">
+            <div id="handle" class="switch-handle-on" onclick="off()"></div>
+        </div>
+        <div class="radiobutton">
+            <div id="rstate" class="radiocheck-off" onclick="on1()">
+
+            </div>
+        </div>
+        <hr class="arnev-hr">
+        <div class="codebox">
+            dank memes
+        </div>
+    </div>
+    </body>
+</html>
