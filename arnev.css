@@ -46,7 +46,9 @@ arnev.css - a lightweight web framework.
     cursor: pointer;
 }
 
-
+.arnev-link:hover {
+    cursor: pointer;
+}
 
 .arnevbutton:hover {
     background-color: black;
@@ -263,4 +265,44 @@ arnev.css - a lightweight web framework.
 
 .arnev-nav-link:hover {
     background-color: #0e6ba8;
+}
+
+.arnevcode-keyword {
+    color: #0e8bdf;
+}
+
+.arnevcode-number {
+    color: #c51bf0;
+}
+
+.arnevcode-linecount {
+    width: 30px;
+    height: max-content;
+    background-color: rgb(53, 53, 53);
+    float: left;
+    border-radius: 1px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.arnevcode-tools {
+    float: right;
+}
+
+.arnevcode-cc {
+    background: transparent;
+    background-image: url(img/code-copy.png);
+    width: 20px;
+    height: 20px;
+    border-style: none;
+}
+
+.arnevcode-cc:hover {
+    background-color: rgb(63, 63, 63);
+    border-radius: 2px;
+}
+
+.arnevcode-cc:focus
+{
+    outline: 0;
 }

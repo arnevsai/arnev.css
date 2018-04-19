@@ -1,0 +1,17 @@
+<link href="../arnev.css" rel="stylesheet">
+<script src="code_editor.js"></script>
+<div class="codebox">
+    <div id="linecounter" class="arnevcode-linecount">1<br>2<br>3<br>4<br>5<br>6<br></div>
+        <div class="arnevcode-tools"><button type="button" onclick="Arnev.CopyCode('code-contents');" class="arnevcode-cc"></button></div>
+        <div id="code-contents">
+            <div class="code-line"><strong class="arnevcode-keyword">function</strong> x()<br></div>
+            <div class="code-line">{<br></div>
+                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<strong class="arnevcode-keyword">var</strong> y = <strong class="arnevcode-number">2</strong>;<br></div>
+                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;alert(y);<br></div>
+            <div class="code-line">}<br></div>
+            <div class="code-line">x();</div>
+        </div>
+</div>
+<script>
+    addCode("function x()\n{\n\talert('hey');\n}", "linecounter", "code-contents");
+</script>

@@ -1,3 +1,6 @@
+<!--
+Arnev.css test webpage.
+-->
 <!DOCTYPE html>
 <!--
 A really basic sample
@@ -5,7 +8,7 @@ A really basic sample
 <html>
     <head>
         <title>Arnev.css</title>
-        <link rel="stylesheet" href="arnev.css">
+        <link id="arnevcss_source" rel="stylesheet" href="arnev.css">
         <script src="arnev.js"></script>
     </head>
     <body style="background-color: #0e8bdf; margin: 0px;">
@@ -48,21 +51,29 @@ A really basic sample
         }
         
         </script>
-        <div class="arnev-label light">label? </div> <div class="switch">
-            <div id="handle" class="switch-handle-on" onclick="off()"></div>
+        <div class="arnev-label light">switch </div> <div class="switch">
+            <div id="handle" class="switch-handle-on arnev-link" onclick="off()"></div>
         </div>
         <div class="radiobutton">
-            <div id="rstate" class="radiocheck-off" onclick="on1()">
+            <div id="rstate" class="radiocheck-off arnev-link " onclick="on1()">
 
             </div>
         </div>
         <hr class="arnev-hr">
         <div class="codebox">
-            function code()
-            {
+            <div class="arnevcode-linecount">1<br>2<br>3<br>4<br>5<br>6<br></div>
+            <div class="arnevcode-tools"><button type="button" onclick="Arnev.CopyCode('code-contents');" class="arnevcode-cc"></button></div>
+            <div id="code-contents">
+                    <strong class="arnevcode-keyword">function</strong> x()<br>
+                    {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<strong class="arnevcode-keyword">var</strong> y = <strong class="arnevcode-number">2</strong>;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;alert(y);<br>
+                    }<br>
+                    x();
+            </div>
             
-            }
         </div>
+        
     </div>
     </body>
 </html>
